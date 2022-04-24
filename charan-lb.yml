@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: charan
-        image:  
+        image: charan:7.0.82  
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
