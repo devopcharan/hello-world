@@ -1,9 +1,9 @@
 apiVersion: apps/v1 
 kind: Deployment
 metadata:
-  name: family/charan
+  name: familycharan
   labels: 
-     app: charan
+    app: charan
 
 spec:
   replicas: 2 
