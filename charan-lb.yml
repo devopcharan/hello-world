@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: charan
-        image: family/charan:7.0.82
+        image:  "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${ECR_REPO_NAME}"
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
