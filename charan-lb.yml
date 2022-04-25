@@ -40,7 +40,7 @@ spec:
     app: charan
 
   ports:
-    - port: 8080
-      targetPort: 8082
+    - port: 80
+      targetPort: 8080
 
   type: LoadBalancer
